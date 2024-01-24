@@ -1,0 +1,40 @@
+body {
+    background-color: #061130;
+    color: white; /* Corrected syntax for color property */
+    margin: 0; /* Remove default margin to ensure full-width background */
+}
+
+footer {
+    background-color: #f4f6f8;
+    padding: 20px; 
+    margin-top: auto;
+}
+
+section {
+    background-color: #061130
+    max-width: 40%;
+}
+.display-flex {
+    display: flex;
+}
+
+.justify-flex-items-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-flex-items-between {
+    justify-content: space-between;
+}
+
+.align-flex-items-center {
+    align-items: center;
+}
+
+.align-right {
+    margin-left: auto; /* Align to the right by pushing to the left with auto margin */
+}
+
+img {
+    max-width: 100%; /* Ensure images are responsive and don't overflow their containers */
+}
+
